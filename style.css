@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  background-color: black; 
+}
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+  color: #fbf9f1;
+}
+.top-menu {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  min-height: 100vh;
+}
+.about {
+  background-image: url("images/about-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  min-height: 100vh;
+  padding: 220px 200px;
+}
+.projects {
+  background-image: url("images/my-project.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  min-height: 100vh;
+}
+.project {
+  margin-top: 60px;
+  margin-left: auto;
+  width: 50%;
+  padding: 30px;
+}
+.contact {
+  background-image: url("images/contact.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 64px; /* You can change this number */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/*.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+/*header {
+  background: #007acc;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}*/
+
+.contact img {
+  width: 400px;
+  margin-right: auto;
+  padding: 30px;
+  margin-top: 200px;
+}
+
+section {
+  margin: 40px 0;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+footer {
+  background: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
